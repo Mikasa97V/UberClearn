@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./styles/style.css" type="text/css" id="style">
+    <link rel="stylesheet" href="./styles/mediaQueries.css">
+    <link rel="stylesheet" href="./styles/mediaMobile.css">
+    <link rel="stylesheet" href="./styles/animations.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="./script.js"></script>
+    <title>Document</title>
+</head>
+
+<body>
+    <div id="Wrapper">
+    <div class="mainWrap" id="mainWrapFisrtMobile">
+        <div class="mainFlexBox">
+            <div class="mainFlexBoxItemText">
+                <p class="greenTitle">Требуются специалисты по уборке</p>
+                <h3 class="mainTitle">Надежный доход
+                    и удобный график работы</h3>
+                <button class="btnSingUp">Записаться</button>
+            </div>
+            <div class="mainFlexBoxItem">
+                <img src="./img/logo/logoMobile.svg" alt="" class="logoImgMobile">
+                <picture>
+                    <!-- <source srcset="./img/bg/mainBGForMobile.png" media="(max-width: 616px)"> -->
+                    <source srcset="./img/logo/logoMobile.svg" media="(max-width: 320px)">
+                    <img src="./img/bg/mainBG.png" alt="" class="mainBGImg">
+                </picture>
+            </div>
+            <div class="mainFlexBoxItemText" id="mainFlexBoxItemTextMobile">
+                <p class="greenTitle">Требуются специалисты по уборке</p>
+                <h3 class="mainTitle">Надежный доход
+                    и удобный график работы</h3>
+                <button class="btnSingUp" id="firstBtnSingUp">Записаться</button>
+            </div>
+        </div>
+    </div>
+    <div class="mainWrap" id="mainWrapSecondMobile">
+        <h2>Мы предлагаем</h2>
+        <content class="contentOffers">
+            <div class="wrapFigure">
+                <div class="imgWrap">
+                    <img src="./img/Offers/Hand-money.svg" alt="" class="imgOffers">
+                </div>
+                <h4>Выплаты вовремя</h4>
+                <div class="line"></div>
+                <p class="descriptionOffer">Выплата на <br> банковскую карту.<br>
+                    2 раза в месяц.</p>
+            </div>
+            <div class="wrapFigure">
+                <div class="imgWrap">
+                    <img src="./img/Offers/Shedule.svg" alt="" class="imgOffers">
+                </div>
+                <h4>Удобное расписание</h4>
+                <div class="line"></div>
+                <p class="descriptionOffer">Большой выбор графиков. <wbr>Можно составить индивидуальный.</p>
+            </div>
+            <div class="wrapFigure">
+                <div class="imgWrap">
+                    <img src="./img/Offers/Orders.svg" alt="" class="imgOffers">
+                </div>
+                <h4>Много <wbr>заказов</h4>
+                <div class="line"></div>
+                <p class="descriptionOffer">Скажите свои рабочие <br>дни, а мы обеспечим <br>заказами.</p>
+            </div>
+            <div class="wrapFigure">
+                <div class="imgWrap">
+                    <img src="./img/Offers/Inventar.svg" alt="" class="imgOffers">
+                </div>
+                <h4>Выдаем инвентарь</h4>
+                <div class="line"></div>
+                <p class="descriptionOffer">Все необходимое для <br>уборки предоставляет<br> компания. </p>
+            </div>
+        </content>
+    </div>
+    <div class="mainWrap" id="mainWrapThirdMobile">
+        <h2 class="titleCommand">Как стать частью команды?</h2>
+        <content class="contentCommand">
+            <div class="wrapFigure wrapFigureMobile">
+                <div class="commandMobiledef">
+                    <div class="imgWrap commandMobileImg">
+                        <img src="./img/Command/1.svg" alt="" class="imgOffers">
+                    </div>
+                    <h4>Заполните <br> анкету</h4>
+                </div>
+                    <p class="descriptionOffer">Расскажите немного 
+                        про себя. Нам важно 
+                        познакомиться.</p>
+            </div>
+            <div class="wrapFigure wrapFigureMobile">
+                <div class="commandMobiledef">
+                    <div class="imgWrap commandMobileImg">
+                        <img src="./img/Command/2.svg" alt="" class="imgOffers">
+                    </div>
+                    <h4>Оплачиваемая <br> стажировка</h4>
+                </div>
+                <p class="descriptionOffer">Выйдете на реальный  заказа с опытным клинером. Стажировка полностью оплачивается</p>
+            </div>
+            <div class="wrapFigure wrapFigureMobile">
+                <div class="commandMobiledef">
+                    <div class="imgWrap commandMobileImg">
+                        <img src="./img/Command/3.svg" alt="" class="imgOffers">
+                    </div>
+                    <h4>Работайте <br> зарабатывайте</h4>
+                </div>
+                <p class="descriptionOffer">Вы часть дружной команды. Сделайте свою жизнь стабильной с UberClean.</p>
+            </div>
+        </content>
+    </div>
+    <div class="mainWrap">
+        <div class="anceta">
+            <h3 class="mainTitle" id="mainTitleMobile">Анкета</h3>
+            <div class="ancetaImg">
+                <img src="./img/picture/Anceta.svg" alt="">
+            </div>
+        </div>
+    </div>
+    <div class="contact">
+        <div class="womanImg">
+            <img src="./img/picture/Woman.svg" alt="">
+        </div>
+        <div class="wrapperContactsInput">
+            <div class="fieldWrap">
+                <h5 class="titleInputContact">Ф.И.О.</h5>
+                <input type="text" class="inputContact" placeholder="Иванов Иван Иванович">
+                <h5 class="titleInputContact">Дата рождения</h5>
+                <input type="text" class="inputContact" placeholder="22.03.1995">
+            </div>
+            <div class="fieldWrap">
+                <h5 class="titleInputContact">Телефон</h5>
+                <input type="text" class="inputContact" placeholder="+7 ">
+                <h5 class="titleInputContact">Гражданство</h5>
+                <input type="text" class="inputContact" placeholder="Россия">
+                <button class="btnSingUp positionBtn">Записаться на собеседование</button>
+            </div>
+        </div>
+    </div>
+    <footer class="mainWrap">
+        <h2>Отвечаем на вопросы</h2>
+        <div class="questionsBlocks">
+            <div class="question">
+                <h3 class="questionTitle">На первую уборку я поеду одна?</h3>
+                <div class="answer">Нет. На первый заказ вы едите с опытным клинером, 
+                    вашим наставником.</div>
+            </div>
+            <div class="question">
+                <h3 class="questionTitle">Мне оплатят стажировку?</h3>
+                <div class="answer">Да, стажировка оплачивается. Ведь вы едите на полноценный заказ.</div>
+            </div>
+            <div class="question">
+                <h3 class="questionTitle">Что мне нужно делать на уборке?</h3>
+                <div class="answer">Это все расскажут на собеседовании. Потом все повторят на уборке на практике. И выдадим очень подробную инструкцию.</div>
+            </div>
+            <div class="question">
+                <h3 class="questionTitle">Какой у меня будет график работы?</h3>
+                <div class="answer">У нас большие и гибкие возможности. Поэтому вы можете составить свой график работы. Указать время в которое принимаете заказы.
+                    Самые популярные графики в нашей компании 5/2  6/1  2/2</div>
+            </div>
+            <div class="question">
+                <h3 class="questionTitle">Что взять с собой на первую уборку?</h3>
+                <div class="answer">Весь инвентарь будет у вашего наставника. Вам нужно только взять сменную одежду для комфортной работы. После стажировки вам предоставят форму.</div>
+            </div>
+        </div>
+        <div class="footerBtn">
+            <button class="btnSingUp">Записаться</button>
+        </div>
+    </footer>
+</div>
+</body>
+
+</html>

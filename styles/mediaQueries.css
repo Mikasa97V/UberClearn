@@ -1,0 +1,298 @@
+@media (max-width: 1498px){
+    .mainWrap {
+        max-width: 1100px;
+    }
+    .mainFlexBoxItemText {
+        max-width: calc(100% - 50px);
+        max-height: calc(100% - 50px);
+    }
+}
+@media (max-width: 1140px){
+    .mainWrap {
+        max-width: 1000px;
+    }
+    .mainFlexBoxItemText {
+        max-width: calc(100% - 50px);
+        max-height: calc(100% - 50px);
+    }
+}
+@media (max-width: 1074px){
+    .mainWrap {
+        max-width: 900px;
+    }
+    .mainFlexBoxItemText {
+        max-width: calc(100% - 50px);
+        max-height: calc(100% - 50px);
+    }
+    .mainBGImg {
+        max-width: calc(100% - 20px);
+        max-height: calc(100% - 20px);
+    }
+}
+@media (max-width: 918px){
+    .mainWrap {
+        max-width: 750px;
+    }
+    .mainFlexBoxItemText {
+        max-width: calc(100% - 50px);
+        max-height: calc(100% - 50px);
+    }
+    .mainBGImg {
+        max-width: calc(100% - 20px);
+        max-height: calc(100% - 20px);
+    }
+    .inputContact {
+        max-width: 324px;
+        max-height: 45px;
+    }
+    .positionBtn {
+        left: -50%;
+    }
+    h4 {
+        font-size: 25px;
+        height: 54px;
+    }
+    
+}
+@media (max-width: 814px){
+    .mainWrap {
+        max-width: 700px;
+    }
+    .mainFlexBoxItemText {
+        max-width: calc(100% - 50px);
+        max-height: calc(100% - 50px);
+    }
+    .mainBGImg {
+        max-width: calc(100% - 20px);
+        max-height: calc(100% - 20px);
+    }
+    .fieldWrap {
+        max-width: 260px;
+    }
+    .inputContact {
+        max-width: 284px;
+        max-height: 40px;
+    }
+    .positionBtn {
+        left: -50%;
+    }
+    .wrapFigure{
+        max-width: 150px;
+    }
+    h4 {
+        font-size: 25px;
+    }
+    .contentOffers {
+        align-items: 0;
+    }
+}
+@media (max-width: 714px){
+    .mainWrap {
+        max-width: 600px;
+    }
+    .mainFlexBoxItemText {
+        max-width: calc(100% - 50px);
+        max-height: calc(100% - 50px);
+    }
+    .mainBGImg {
+        max-width: calc(100% - 20px);
+        max-height: calc(100% - 20px);
+    }
+    .fieldWrap {
+        max-width: 260px;
+    }
+    .inputContact {
+        max-width: 200px;
+        max-height: 40px;
+    }
+    .inputContact::placeholder {
+        font-weight: 300;
+        font-size: 16px;
+        line-height: 21px;
+        padding-top: 15px;
+        padding-left: 10px;
+    }
+    .positionBtn {
+        left: -60%;
+    }
+    .contentOffers {
+        align-items: 0;
+    }
+}
+@media (max-width: 616px){
+    .mainWrap {
+        max-width: 550px;
+    }
+    .mainFlexBoxItemText {
+        max-width: calc(100% - 50px);
+        max-height: calc(100% - 50px);
+        margin-right: 2%;
+    }
+    .mainBGImg {
+        max-width: calc(100% - 20px);
+        max-height: calc(100% - 20px);
+    }
+    .fieldWrap {
+        max-width: 260px;
+    }
+    .inputContact {
+        max-width: 200px;
+        max-height: 40px;
+    }
+    .inputContact::placeholder {
+        font-weight: 300;
+        font-size: 16px;
+        line-height: 21px;
+        padding-top: 15px;
+        padding-left: 10px;
+    }
+    .positionBtn {
+        left: -60%;
+    }
+    .contentOffers {
+        align-items: 0;
+    }
+}
+@media (max-width: 556px){
+    .mainWrap {
+        max-width: 470px;
+    }
+    .mainFlexBoxItemText {
+        max-width: calc(100% - 50px);
+        max-height: calc(100% - 50px);
+        margin-right: 2%;
+    }
+    .mainBGImg {
+        max-width: calc(100% - 20px);
+        max-height: calc(100% - 20px);
+    }
+    .fieldWrap {
+        max-width: 260px;
+    }
+    .inputContact {
+        max-width: 170px;
+        max-height: 40px;
+    }
+    .inputContact::placeholder {
+        font-weight: 300;
+        font-size: 16px;
+        line-height: 21px;
+        padding-top: 15px;
+        padding-left: 3px;
+    }
+    .positionBtn {
+        left: -60%;
+    }
+    .contentOffers {
+        align-items: 0;
+    }
+    .wrapFigure {
+        margin-right: 1%;
+    }
+    .imgOffers {
+        width: 85px;
+        height: 75px;
+    }
+    .mainTitle {
+        font-size: 25px;
+    }
+    .greenTitle {
+       font-size: 25px;
+    }
+}
+@media (max-width: 500px){
+    .mainWrap {
+        max-width: 400px;
+    }
+    .mainFlexBoxItemText {
+        max-width: calc(100% - 50px);
+        max-height: calc(100% - 50px);
+        margin-right: 2%;
+    }
+    .mainBGImg {
+        max-width: calc(100% - -37px);
+        max-height: calc(100% - 20px);
+    }
+    .fieldWrap {
+        max-width: 260px;
+    }
+    .inputContact {
+        max-width: 170px;
+        max-height: 40px;
+    }
+    .inputContact::placeholder {
+        font-weight: 300;
+        font-size: 16px;
+        line-height: 21px;
+        padding-top: 15px;
+        padding-left: 3px;
+    }
+    .positionBtn {
+        left: -60%;
+    }
+    .contentOffers {
+        align-items: 0;
+    }
+    .wrapFigure {
+        margin-right: 1%;
+    }
+    h4 {
+        font-size: 20px;
+    }
+    .descriptionOffer {
+        font-size: 15px;
+    }
+    
+}
+@media (max-width: 480px){
+    .mainWrap {
+        max-width: 330px;
+    }
+    .mainFlexBoxItemText {
+        max-width: calc(100% - 50px);
+        max-height: calc(100% - 50px);
+        margin-right: 2%;
+    }
+    .mainBGImg {
+        max-width: calc(100% - -37px);
+        max-height: calc(100% - 20px);
+    }
+    .fieldWrap {
+        max-width: 260px;
+    }
+    .inputContact {
+        max-width: 170px;
+        max-height: 40px;
+    }
+    .inputContact::placeholder {
+        font-weight: 300;
+        font-size: 16px;
+        line-height: 21px;
+        padding-top: 15px;
+        padding-left: 3px;
+    }
+    .positionBtn {
+        left: -60%;
+    }
+    .contentOffers {
+        align-items: 0;
+    }
+    .wrapFigure {
+        margin-right: 1%;
+    }
+    h4 {
+        font-size: 20px;
+    }
+    .descriptionOffer {
+        font-size: 15px;
+    }
+    .womanImg {
+        display: none;
+    }
+    .wrapperContactsInput {
+        padding-left: 5%;
+    }
+    .btnSingUp {
+        margin-bottom: 10%;
+    }
+}

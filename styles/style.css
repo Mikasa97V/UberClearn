@@ -1,0 +1,239 @@
+body {
+    margin: 0 auto;
+}
+.mainWrap {
+    width: 100%;
+    max-width: 1440px;
+    height: 100%;
+    max-height: 800px;
+    margin: 0 auto;
+}
+.mainFlexBox {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.mainFlexBoxItemText {
+    width: 100%;
+    max-width: 566px;
+    height: 100%;
+    max-height: 287px;
+}
+.mainFlexBoxItem {
+    width: 100%;
+    max-width: 872px;
+    height: 100%;
+    max-height: 533px;
+}
+.greenTitle {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 23px;
+    color: #B5CA00;
+}
+.mainTitle {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 40px;
+    line-height: 47px;
+}
+.btnSingUp {
+    width: 100%;
+    max-width: 295px;
+    height: 60px;
+    border-radius: 4px;
+    border-color: #B5CA00;
+    background-color: #B5CA00;
+    color: #FFFFFF;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 21px;
+}
+h2 {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 40px;
+    line-height: 47px;
+    text-align: center;
+}
+.contentOffers {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    /* align-items: flex-end; */
+    align-items: 0;
+}
+.line {
+    width: 100%;
+    max-width: 94px;
+    margin: 0px;
+    border: 1px solid #F6C6CF;
+}
+.wrapFigure {
+    width: 100%;
+    max-width: 225px;
+}
+.imgOffers {
+    height: 95px;
+}
+h4 {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 23px;
+    line-height: 27px;
+}
+
+.descriptionOffer {
+    max-width: 170px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 19px;
+}
+.contentCommand {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+}
+.titleCommand {
+    margin-top: 8%;
+    margin-bottom: 5%;
+}
+.anceta {
+    width: 100%;
+    height: 100%;
+    margin: 5% 0 1.5% 0;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: flex-start;
+}
+.contact {
+    width: 100%;
+    max-width: ;
+    height: 502px;
+    background-color: #8664C6;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: flex-end;
+}
+.wrapperContactsInput {
+    width: 100%;
+    max-width: 1300px;
+    height: 399px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-around;
+}
+.titleInputContact {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 21px;
+    color: #FFFFFF;
+    margin-top: 0;
+    margin-bottom: 14px;
+}
+.inputContact {
+    width: 100%;
+    max-width: 360px;
+    height: 100%;
+    max-height: 50px;
+    background: #FFFFFF;
+    border: 1px solid #FFFFFF;
+    box-sizing: border-box;
+    box-shadow: inset 0px 0px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 5px;
+    margin-bottom: 5%;
+}
+.inputContact::placeholder {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 21px;
+    color: #CBC6C6;
+    padding-top: 15px;
+    padding-left: 24px;
+}
+.fieldWrap {
+    position: relative;
+    width: 100%;
+    max-width: 360px;
+}
+.positionBtn {
+    position: absolute;
+    top: 66%;
+    left: 19%;
+}
+.inputContact:active, :hover, :focus {
+    outline: 0;
+    outline-offset: 0;
+}
+footer {
+    width: 100%;
+    max-width: 1440px;
+    margin: 0 auto;
+    height: 869px;
+    /* position: relative; */
+}
+.footerBtn {
+    margin-top: 5%;
+    text-align: center;
+    margin-bottom: 10%;
+}
+.questionsBlocks {
+    width: 100%;
+    max-width: 1038px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: center;
+}
+.questionTitle {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 23px;
+    line-height: 27px;
+    cursor: pointer;
+}
+.answer {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 19px;
+    
+}
+#mainFlexBoxItemTextMobile {
+    display: none;
+}
+.logoImgMobile {
+    display: none;
+}
+
+.inputContact::-webkit-input-placeholder       {text-indent: 0px;   transition: text-indent 0.3s ease;}
+.inputContact::-moz-placeholder                {text-indent: 0px;   transition: text-indent 0.3s ease;}
+.inputContact:-moz-placeholder                 {text-indent: 0px;   transition: text-indent 0.3s ease;}
+.inputContact:-ms-input-placeholder            {text-indent: 0px;   transition: text-indent 0.3s ease;}
+.inputContact:focus::-webkit-input-placeholder {text-indent: 500px; transition: text-indent 0.3s ease;}
+.inputContact:focus::-moz-placeholder          {text-indent: 500px; transition: text-indent 0.3s ease;}
+.inputContact:focus:-moz-placeholder           {text-indent: 500px; transition: text-indent 0.3s ease;}
+.inputContact:focus:-ms-input-placeholder      {text-indent: 500px; transition: text-indent 0.3s ease;}
+
+
